@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+
+    <!-- add bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- bootstrop icons --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <nav class="nav flex-column">
+            <h5 class="title">Dashboard Kit</h5>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-pie-chart-fill"></i>
+                </span>
+                <span class="description">Overview</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-ticket-detailed-fill"></i>
+                </span>
+                <span class="description">Tickets</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-lightbulb-fill"></i>
+                </span>
+                <span class="description">ideas</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-people-fill"></i>
+                </span>
+                <span class="description">Contacts</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-person-workspace"></i>
+                </span>
+                <span class="description">Agents</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-file-earmark"></i>
+                </span>
+                <span class="description">Articles</span>
+            </a>
+            <hr>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-gear-fill"></i>
+                </span>
+                <span class="description">Settings</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-award"></i>
+                </span>
+                <span class="description">Subscriptions</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- main -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col">
+                    <h5 class="overview">Overview</h5>
+                </div>
+                <div class="col text-end">
+                    <i class="bi bi-search"></i>
+                    <i class="bi bi-bell"></i>
+                    <a>Jones Ferdinand</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container">
+            <div class="row g-3 justify-content-center">
+                <div class="col-md">
+                    <div class="card">
+                        <span class="label">Unresolved</span>
+                        <span class="count">60</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <span class="label">Overdue</span>
+                        <span class="count">16</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <span class="label">Open</span>
+                        <span class="count">43</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <span class="label">On hold</span>
+                        <span class="count">64</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

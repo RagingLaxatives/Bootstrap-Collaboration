@@ -1,0 +1,76 @@
+/* sidebar */
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 200px;
+    padding-top: 20px;
+    background-color:rgba(54, 55, 64, 1);
+    transition: width 0.3s;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: rgba(164, 166, 179, 1);
+}
+
+.sidebar .nav-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    color: rgba(164, 166, 179, 1);
+}
+
+.sidebar .description{
+    font-size: 16px;
+}
+
+.sidebar .nav-link:hover{
+    color: rgba(221, 226, 255, 1);
+    background-color:rgba(159, 162, 180, 1) ;
+}
+
+/* main */
+.main-content{
+    height:100%;
+    margin-left: 200px;
+    padding:30px 20px;
+}
+
+.overview{
+    font-size: 16px;
+}
+
+.card {
+    background-color: ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover{
+    border-color: blue;
+    cursor: pointer;
+
+}
+
+.card:hover span {
+    color: blue;
+}
+
+.label {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.count {
+    font-size: 24px;
+    color: #000;
+}
