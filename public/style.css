@@ -78,6 +78,9 @@
 /* Today's Trends */
 
 
+.ticket-task{
+    margin-top: 30px;
+}
 
 .h6{
     text-align: left;
@@ -92,7 +95,7 @@
 /* Today's trends side list */
 
 
-.trends{
+.trends, .ticket-task, .table {
    
     height: 100%;
     margin-left: 200px;
@@ -124,3 +127,8 @@
    
 }
 
+#ticket{
+    display: flex;
+    flex-direction: column;
+    
+}
