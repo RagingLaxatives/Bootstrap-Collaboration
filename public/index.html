@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
 
     <!-- css file -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -463,6 +465,7 @@
 
                 <!-- TASKS SECTION -->
 
+                
                 <div class="col">
                     <div id="card4" class="card">
 
@@ -472,78 +475,76 @@
                                 <p class="h6">Tasks</p>
                                 <small class="subtitle">Today</small>
                             </div>
-        
+
 
                             <div class="element2">
                                 <a id="view-d" href="#"><small class="details">View all</small></a>
                             </div>
 
                         </div>
-                       
-                        
+
+
                         <div id="t5" class="card-body section">
                             <div class="d-flex justify-content-between">
-                                    <span>Create new task</span>
-                                   
-                                    <button class="btn btn-primary btn-sm ms-2" id="plusButton">
-                                        <i class="bi bi-plus"></i>
-                                    </button>
-                                    
+                                <span id="create">Create new task</span>
+
+                                <button class="btn btn-primary btn-sm ms-2" id="plusButton">
+                                    <i class="bi bi-plus"></i>
+                                </button>
+
                             </div>
                         </div>
 
-                        <hr class="divider"> 
+                        <hr class="divider">
 
                         <div id="t6" class="card-body section">
                             <div class="d-flex justify-content-between">
-
-                               
-
-                                <small class="status2">Finish ticket update</small>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="finishTicketUpdate">
+                                    <label class="form-check-label" for="finishTicketUpdate">
+                                        Finish ticket update
+                                    </label>
+                                </div>
                                 <span class="badge badge-urgent">URGENT</span>
                             </div>
                         </div>
-
-                        <hr class="divider"> 
-
+                        
+                        <hr class="divider">
+                        
                         <div id="t7" class="card-body section">
                             <div class="d-flex justify-content-between">
-                                <small class="status2">Create new ticket example</small>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="createNewTicketExample">
+                                    <label class="form-check-label" for="createNewTicketExample">
+                                        Create new ticket example
+                                    </label>
+                                </div>
                                 <span class="badge badge-new">NEW</span>
                             </div>
                         </div>
-
-                        <hr class="divider"> 
-
+                        
+                        <hr class="divider">
+                        
                         <div id="t8" class="card-body section">
                             <div class="d-flex justify-content-between">
-                                <small class="status2">Update ticket report</small>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="updateTicketReport">
+                                    <label class="form-check-label" for="updateTicketReport">
+                                        Update ticket report
+                                    </label>
+                                </div>
                                 <span class="badge badge-default">DEFAULT</span>
                             </div>
                         </div>
+                        
+                        
+
                     </div>
                 </div>
+
             </div>
         </div>
-
-
-
-
-
-
-
-
     </div>
-
-
-  
-        
-
-
-
-   
-
-
 </body>
 
 
