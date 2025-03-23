@@ -82,7 +82,12 @@ body {
 }
 
 .sidebar .nav-link:hover {
-    color: rgba(221, 226, 255, 1); 
+    color: rgba(221, 226, 255, 1);
+
+    & .icon path {
+        opacity: 1;
+        fill: rgba(221, 226, 255, 1);
+    }
 }
 
 .sidebar .nav-link:hover::before {
