@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: rgba(247, 248, 252, 1);
+}
+
+
 /* sidebar */
 .sidebar{
     position: fixed;
@@ -39,7 +48,11 @@
 
 .sidebar .nav-link:hover{
     color: rgba(221, 226, 255, 1);
-    background-color:rgba(159, 162, 180, 1) ;
+    background-color:rgba(159, 162, 180, 0.2) ;
+}
+
+.links {
+    margin-top: 20px;
 }
 
 .icon:hover{
@@ -56,6 +69,7 @@
 .overview{
     font-size: 19px;
     padding-top:5px;
+    margin-bottom: 50px;
 }
 
 .overview-icon {
@@ -67,27 +81,29 @@
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover{
-    border-color: blue;
+    border-color: rgba(55, 81, 255, 1);
     cursor: pointer;
 
 }
 
 .card:hover span {
-    color: blue;
+    color: rgba(55, 81, 255, 1);
+    ;
 }
 
 .label {
-    font-size: 14px;
-    color: #6c757d;
+    font-size: 19px;
+    color: rgba(159, 162, 180, 1);
     margin-bottom: 5px;
+    font-weight: 700px;
 }
 
 .count {
-    font-size: 24px;
+    font-size: 40px;
+    font-weight: 700;
     color: #000;
 }
 
